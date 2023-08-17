@@ -1,0 +1,94 @@
+
+@font-face {
+    font-family: 'candaralight';
+    src: url('./Candara_Light.woff') format('woff');
+}
+
+.header{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    left: 0px;
+    right: 0px;
+    background: #034e53;
+   justify-content: center;
+   align-items: center;
+}
+
+.header p{
+    position: absolute;
+    width: 139px;
+    height: 40px;
+    font-family: "Futura PT";
+    font-size: 35px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    color: #6bc4a6;
+}
+
+img{
+    width: 100%;
+    height:100%;
+    z-index: -1;
+    position: absolute;
+}
+
+.container {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: transparent;
+    
+  }
+
+.frame{
+    display: flex;
+    width: 475px;
+    height: 434px;
+    border-color: #034e53;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    background: #ffffff;
+    z-index: 1;
+    align-items: center;
+}
+
+.custom_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+      
+}
+
+#first{
+    font-size: larger;
+    font-family: candaralight;
+    text-align: center;
+
+}
+
+body{
+    /* background-repeat: no-repeat;
+    background-size:cover; */
+    background-image: url('./Jetro_hattér22_11_15.jpg') no-repeat center center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
